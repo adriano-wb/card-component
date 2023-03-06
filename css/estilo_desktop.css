@@ -9,22 +9,22 @@ body {
   height: 100vh;
 }
 
-.cars {
+.card {
   display: flex;
   width: 920px;
   height: 500px;
 }
 
-.cars-info {
+.card-info {
   padding: 48px;
 }
 
-.cars-info-head__icon {
+.card-info-head__icon {
   width: 55px;
   height: 34px;
 }
 
-.cars-info-head__title {
+.card-info-head__title {
   color: var(--very-light-gray);
   text-transform: uppercase;
   font-family: 'Big Shoulders Display', cursive;
@@ -32,7 +32,7 @@ body {
   margin-top: 37px;
 }
 
-.cars-info__text {
+.card-info__text {
   color: var(--transparent-white);
   font-family: 'Lexend Deca', sans-serif;
   margin-top: 27px;
@@ -40,7 +40,7 @@ body {
   font-size: 0.93rem;
 }
 
-.cars-info__botao {
+.card-info__botao {
   border: 2px solid var(--very-light-gray);
   cursor: pointer;
   border-radius: 25px;
@@ -53,41 +53,41 @@ body {
   transition: 0.2s;
 }
 
-/* SEDANS CARS STYLES */
-.cars-info:nth-child(1) {
+/* SEDANS card STYLES */
+.card-info:nth-child(1) {
   border-radius: 9px 0 0 9px;
   background-color: var(--bright-orange);
   flex: 3px;
 }
 
-.cars-info:nth-child(1) .cars-info__botao {
+.card-info:nth-child(1) .card-info__botao {
   color: var(--bright-orange);
 }
 
-.cars-info:nth-child(2) {
+.card-info:nth-child(2) {
   background-color: var(--dark-cyan);
   flex: 2px;
 }
 
-.cars-info:nth-child(2) .cars-info__botao {
+.card-info:nth-child(2) .card-info__botao {
   color: var(--dark-cyan);
 }
 
 
-/* LUXURY CARS STYLES */
-.cars-info:nth-child(3) {
+/* LUXURY card STYLES */
+.card-info:nth-child(3) {
   border-radius: 0 9px 9px 0;
   background-color: var(--very-dark-cyan);
   flex: 3px;
 }
 
-.cars-info:nth-child(3) .cars-info__botao {
+.card-info:nth-child(3) .card-info__botao {
   color: var(--very-dark-cyan);
 }
 
-.cars-info:nth-child(1) .cars-info__botao:hover,
-.cars-info:nth-child(2) .cars-info__botao:hover,
-.cars-info:nth-child(3) .cars-info__botao:hover {
+.card-info:nth-child(1) .card-info__botao:hover,
+.card-info:nth-child(2) .card-info__botao:hover,
+.card-info:nth-child(3) .card-info__botao:hover {
   background: transparent;
   color: var(--very-light-gray);
 }
