@@ -2,6 +2,7 @@
 @import url(reboot.css);
 
 body {
+  backoground-color: var(--very-light-gray);
   color: var(--transparent-white);
   padding: 88px 24px;
   font-size: 14px;
