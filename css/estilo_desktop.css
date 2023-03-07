@@ -42,6 +42,7 @@ body {
 }
 
 .card-info__botao {
+  text-decoration: none;
   border: 2px solid var(--very-light-gray);
   cursor: pointer;
   border-radius: 25px;
