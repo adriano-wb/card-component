@@ -42,14 +42,16 @@ body {
 }
 
 .card-info__botao {
-  text-decoration: none;
   border: 2px solid var(--very-light-gray);
+  background-color: var(--very-light-gray);
   cursor: pointer;
-  display: block;
+  display: inline-block;
   border-radius: 25px;
   font-size: 0.90rem;
   font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
   text-transform: capitalize;
+  text-decoration: none;
   margin-top: 84px;
   padding: 13px;
   width: 145px;

@@ -2,7 +2,6 @@
 @import url(reboot.css);
 
 body {
-  background-color: var(--very-light-gray);
   color: var(--transparent-white);
   padding: 88px 24px;
   font-size: 14px;
@@ -36,12 +35,15 @@ body {
 
 .card-info__botao {
   color: var(--bright-orange);
-  list-style: none;
-  display: block;
+  background-color: var(--very-light-gray);
   border-radius: 30px;
+  display: inline-block;
   font-size: 0.95rem;
   font-weight: 700;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
   text-transform: capitalize;
+  text-decoration: none;
   margin-top: 28px;
   padding: 16px;
   width: 148px;
