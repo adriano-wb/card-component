@@ -45,6 +45,7 @@ body {
   text-decoration: none;
   border: 2px solid var(--very-light-gray);
   cursor: pointer;
+  display: block;
   border-radius: 25px;
   font-size: 0.90rem;
   font-family: 'Lexend Deca', sans-serif;
