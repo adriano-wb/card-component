@@ -37,6 +37,7 @@ body {
 .card-info__botao {
   color: var(--bright-orange);
   list-style: none;
+  display: block;
   border-radius: 30px;
   font-size: 0.95rem;
   font-weight: 700;
